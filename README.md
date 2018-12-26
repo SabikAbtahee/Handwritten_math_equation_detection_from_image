@@ -11,7 +11,7 @@ The project is run on python. Installing jupyter is higly recommended. There are
 
 ### Prerequisites
 
-
+An installation text file is given for setting up and running the project names as "Installtion process.txt"
 
 ```
 jupyter
