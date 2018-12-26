@@ -1,0 +1,34 @@
+1. Download python 3.6.4 64bit link-https://www.python.org/ftp/python/3.6.4/python-3.6.4-amd64.exe
+2. Setup python
+3. Set path to environment variables (add python36/scripts) also
+4. To check python version open command prompt and type - 
+	*import sys
+	*print(sys.version)	3.6.4
+	*import platform
+	*print(platform.architecture())	64bit
+5. then install virtualenvironment-
+	pip install virtualenv
+	virtualenv env
+6. go to scripts and type activate in command promt to enter the virtual environment then install the followings
+7. 
+
+
+pip install jupyter
+pip install keras
+pip install tensorflow-gpu (varies on machines) (Install CUDA and set environment variables)
+pip install numpy
+pip install opencv-python
+pip install Pillow
+pip install python-resize-image
+pip install sympy
+
+
+
+
+*Istalling tensorflow-gpu requires 
+-python-3.6.x
+-tensorflow-gpu-1.12.0
+-CUDA 9.0
+-cudnn 7.x
+-MSVC 2015(Microsoft visual studio)
+add path of cuda,cupti,cudnn as given in tensorflow website - link -https://www.tensorflow.org/install/gpu
