@@ -14,12 +14,14 @@ The project is run on python. Installing jupyter is higly recommended. There are
 
 
 ```
-jupyter
-tensorflow
-keras
-PIL
-numpy
-opencv2
+pip install jupyter
+pip install keras
+pip install tensorflow-gpu
+pip install numpy
+pip install opencv-python
+pip install Pillow
+pip install python-resize-image
+pip install sympy
 ```
 
 
